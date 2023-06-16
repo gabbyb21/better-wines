@@ -8,5 +8,13 @@
 </head>
 <body>
   <h1>Welcome to Better Wines</h1>
+  
+    <% for (let i = 0; i < wines.length; i++) { %>
+      <h2><%= wines[i].name %></h2>
+      <p>Type: <%= wines[i].type %></p>
+      <p>Origin: <%= wines[i].origin %></p>
+      <p>Description: <%= wines[i].description %></p>
+      <img src="<%= wines[i].img %>"
+    <% }; %>
 </body>
 </html>
