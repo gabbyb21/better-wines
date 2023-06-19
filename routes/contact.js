@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var winesCtrl = require('../controllers/wines');
+var contactCtrl = require('../controllers/contact');
 
-router.get('/', winesCtrl.index);
+router.get('/', contactCtrl.index);
 
 module.exports = router;

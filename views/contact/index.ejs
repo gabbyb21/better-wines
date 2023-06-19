@@ -1,0 +1,31 @@
+<%- include('../partials/header') %>
+
+<link rel="stylesheet" type="text/css" href="/styles/contact.css">
+
+
+<h2>Contact Information</h2>
+
+<p>Company Name: <%= contact.name %></p>
+<p>Address: <%= contact.address %></p>
+<p>Phone Number: <%= contact.phoneNumber %></p>
+
+<h3>Social Media</h3>
+<ul>
+  <li>
+    <a href="<%= contact.socialMedia.instagram.link %>">
+      <img src="<%= contact.socialMedia.instagram.photo %>" alt="Instagram">
+    </a>
+  </li>
+  <li>
+    <a href="<%= contact.socialMedia.linkedin.link %>">
+      <img src="<%= contact.socialMedia.linkedin.photo %>" alt="Linkedin">
+    </a>
+  </li>
+  <li>
+    <a href="<%= contact.socialMedia.twitter.link %>">
+      <img src="<%= contact.socialMedia.twitter.photo %>" alt="Twitter">
+    </a>
+  </li>
+</ul>
+
+<%- include('../partials/footer') %>

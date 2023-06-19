@@ -1,0 +1,68 @@
+
+
+/* Page layout */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Social media icons */
+  .social-media-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-media-list li {
+    display: inline-block;
+  }
+  
+  .social-media-list a img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Apply styles to the contact page */
+  .container h2,
+  .container h3,
+  .container p {
+    color: #333;
+  }
+  
+  .container ul li a img {
+    border-radius: 50%;
+  }
+  
+  .container ul li a img:hover {
+    opacity: 0.8;
+  }
+  
